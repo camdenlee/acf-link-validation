@@ -38,3 +38,5 @@
 
     return $valid;
   }
+
+  add_filter( 'acf/validate_value/key=FIELDKEY', 'we_validate_link_length', 10, 4 );
